@@ -1,30 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-.Date-Container{
-  display: inline;
-  margin: 12px;
-}
-.Date-Container .DatePicker{
-  display: inline-block;
-  margin: 12px;
-}
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 html,
 body,
 #root {
@@ -33,7 +6,7 @@ body,
     box-sizing: border-box;
 }
 
-.rootContainer {
+.root-container {
     width: 100%;
     height: 100%;
     display: flex;
@@ -42,7 +15,7 @@ body,
     flex-direction: column;
 }
 
-.boxController {
+.box-controller {
     visibility: visible;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -72,8 +45,7 @@ body,
 
 .boxContainer {
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    flex-direction: column;
     max-width: 28em;
     min-width: 25em;
     box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.2);
@@ -85,7 +57,7 @@ body,
     transition: visibility 0.2s ease-out;
 }
 
-.innerContainer.show {
+.inner-container.show {
     visibility: visible;
 }
 
@@ -199,24 +171,4 @@ body,
 
 .show {
     visibility: visible;
-}
-
-.App-link {
-  color: #61dafb;
-}
-h4 {
-  padding: 60px;
-
-  text-align: center;
-  background: #70a1ff;
-  color: white;
-  font-size: 30px;
-}
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

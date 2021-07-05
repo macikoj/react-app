@@ -1,0 +1,20 @@
+.rootContainer{
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.left{
+float: left;
+}
+.right{
+    float: right;
+
+}
+.field{
+width: 80%;
+
+}

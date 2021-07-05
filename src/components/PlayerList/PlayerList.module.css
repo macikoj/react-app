@@ -1,0 +1,39 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 20em;
+    min-width: 18em;
+   
+    box-shadow: 3px 0px 30px 0px rgba(15, 15, 15, 0.2);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 6px;
+    border-top: 5px solid rgba(20, 135, 212, 0.849);
+    border-left: 5px solid rgba(20, 135, 212, 0.8);
+    
+}
+.as{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    
+}
+p{
+    font-size: 20px;
+    width: 100%;
+    padding-left: 4px;
+}
+
+.boxred{
+    background-color: rgba(228, 67, 46, 0.97) ;
+}
+.boxblue{
+    background-color: rgba(73, 136, 231, 0.966) ;
+}
+.boxyellow{
+    background-color: rgba(248, 235, 54, 0.966);
+}
+.boxgrey{
+    background-color: rgb(192, 192, 192) ;
+}
